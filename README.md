@@ -1,16 +1,4 @@
-# React 19 Training Ground
-
-## Download
-
-Press the green Code button and click Download ZIP. Unzip the file and open it in your preferred text editor or IDE.
-
-## Install
-
-Run this command in your terminal to install all of the packages.
-
-```
-npm install
-```
+# React Todo List
 
 ## Start
 
