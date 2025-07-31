@@ -11,7 +11,9 @@ function TodoInput({ onAdd }) {
 
   return (
     <>
+      <label htmlFor="todo-input">Add a todo: </label>
       <input
+        id="todo-input"
         value={text}
         onChange={(e) => setText(e.target.value)}
       />

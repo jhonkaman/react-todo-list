@@ -36,6 +36,7 @@ function TodoList() {
 
   return (
     <>
+      <h1>React Todo List</h1>
       <TodoInput onAdd={handleAdd} />
       <TodoFilter
         hideCompleted={hideCompleted}
