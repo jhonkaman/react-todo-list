@@ -7,7 +7,7 @@ function TodoItem({ todo, onToggle, onDelete }) {
         onChange={onToggle}
       />
       {todo.text}{" "}
-      <button onClick={onDelete}>Delete</button>
+      <button onClick={onDelete}>X</button>
     </li>
   );
 }

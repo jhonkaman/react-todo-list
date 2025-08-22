@@ -11,13 +11,13 @@ function TodoInput({ onAdd }) {
 
   return (
     <>
-      <label htmlFor="todo-input">Add a todo: </label>
+      <label htmlFor="todo-input">New Todo: </label>
       <input
         id="todo-input"
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button onClick={handleSubmit}>Add</button>
+      <button onClick={handleSubmit}>Add Todo</button>
     </>
   );
 }
